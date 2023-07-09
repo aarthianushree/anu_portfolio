@@ -1,0 +1,85 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url('./pics/HD\ wallpaper_\ geometry\,\ cyberspace\,\ digital\ art\,\ lines\,\ abstract\,\ technology.jpg');
+    color: white;
+    align-items: center;
+}
+
+.contactbox{
+    height: 81.5vh;
+    width: 55%;
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-size: auto;
+    border: 1px solid #d88dc9;
+    box-shadow: 0 0 15px 0 grey;
+    display: flex;
+    margin-top: 80px;
+    
+}
+
+.contactbox1{
+   padding: 5px;
+   height: 80vh;
+   width: 60%;
+   border-radius: 10px 0 0 10px;
+   background-size: cover;
+    background-image: url('./pics/HD\ wallpaper_\ geometry\,\ cyberspace\,\ digital\ art\,\ lines\,\ abstract\,\ technology.jpg');
+}
+
+.contactbox1 >h2{
+    margin-left: 10px;
+}
+
+.contactbox2{
+    padding: 5px;
+    height: 80vh;
+    width: 40%;
+    background-color: black;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.contactbox2 >h4{
+    margin-left: 20px;
+}
+
+.displaygrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 90px;
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+    background-size: cover;
+    background-image: url('./pics/HD\ wallpaper_\ geometry\,\ cyberspace\,\ digital\ art\,\ lines\,\ abstract\,\ technology.jpg');
+}
+
+.displaygrid a{
+    color: white;
+}
+
+.displaygrid a:hover {
+    text-decoration: none;
+  }
+
+.displaygrid a:link{
+    text-decoration: none;
+}
+
+.displaygrid:hover{
+    cursor: pointer;
+    background-image: none;
+}
+
+.contactimg{
+    height: 70%;
+    width: 90%;
+    border-radius: 10px;
+}

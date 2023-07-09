@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Courgette&family=EB+Garamond:ital@1&display=swap');
+
+.home{
+    height: 100vh;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-family: 'EB Garamond', serif;
+    background-size: cover;
+    background-image: url('./pics/HD\ wallpaper_\ geometry\,\ cyberspace\,\ digital\ art\,\ lines\,\ abstract\,\ technology.jpg');
+    padding: 10px;
+}
+
+.homebox{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    height: 80vh;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.homebox1{
+    margin-top: 100px;
+    height: 70vh;
+    width: 70%;
+}
+
+.homebox2{
+    height: 70vh;
+    width: 30%;
+    display: block;
+    border-radius: 0 0 10px 0 pink;
+}
+
+.icon{
+    margin-right: 0px;
+    display: flex;
+    gap: 5%;
+}
+
+.textbox{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 0px;
+    margin-right: 10px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: x-large;
+    background-size: cover;
+   
+}
+
+.nav{
+    height: 20vh;
+    width: 98%;
+    margin-top: -130px;
+    position: fixed;
+}
+
+.nav .navbar{
+    margin-top: 120px ;
+    margin-left: 40px;
+    background-color: transparent;
+    height: 30vh;
+    width: 80%;
+    display: flex;
+}
+
+.navbar >p{
+    padding: 20px;
+    text-align: center;
+    height: 3vh;
+    width: 10%;
+    border: 4px solid black;
+    margin-left: 10px;
+    margin-right: 40px;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px;
+    display: flex;
+    gap: 10%;
+}
+
+.navbar >p:hover{
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+  }
+
+.bnavbar a:link{
+    text-decoration: none;
+}
+
+
+
+.navbar:hover{
+    cursor: pointer;
+    background-image: none;
+}
+

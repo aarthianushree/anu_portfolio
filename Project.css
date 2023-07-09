@@ -1,0 +1,120 @@
+.project
+{
+    height: 105vh;
+    background-color: black;
+    color: white;
+}
+
+.projectHeading{
+    margin-top: 78px;
+    display: flex;
+}
+
+/* .generalinfo{
+    height: auto;
+    width: 92%;
+    border: 1px solid rgb(235, 42, 42);
+    margin-left: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+    
+} */
+.project .reactlogo{
+    height: 60px;
+    width:130px;
+}
+
+.projectboxes{
+    display: block;
+}
+
+.projectbox1{
+    height: auto;
+    margin-top: 0px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 0px;
+    color: white;
+    background-size:cover;
+    background-image: url('./pics/Purple\ Nebula\ Galaxy\ Background\,\ Galaxy\,\ Background\,\ Astronomy\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg');
+}
+
+
+
+.box1Internal{
+    margin-top: 0px;
+    margin-left: 5px;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px 0;
+    border: none;
+    padding: 10px;
+    border: 1px solid #d88dc9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-size:cover;
+    background-image: url('./pics/Purple\ Nebula\ Galaxy\ Background\,\ Galaxy\,\ Background\,\ Astronomy\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg');
+}
+
+
+.box2Internal{
+    margin-top: 0px;
+    margin-left: 5px;
+    height: 35vh;
+    width: auto;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    
+}
+
+.projectbox
+{
+    display: flex;
+}
+
+.projectContent{
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 75vh;
+    width: 65%;
+    overflow-y: scroll;
+    background-size: contain;
+    background-size:auto;
+    background-image: url('./pics/Purple\ Nebula\ Galaxy\ Background\,\ Galaxy\,\ Background\,\ Astronomy\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg');
+   
+}
+
+.box2Internal .imageDimensions{
+    height:180px;
+    width: 400px;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid #d88dc9;
+}
+
+.projectContentInternal{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: auto;
+    width: 96%;
+    box-shadow: none;
+    border: none;
+    padding: 20px;
+    border: 1px solid #d88dc9;
+    box-shadow: 0 0 10px 0 #9FA4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.projectContentInternal .imageDimensions{
+    height:50%;
+    width: 90%;
+    border: 1px solid #d88dc9;
+    box-shadow: 0 0 10px 0;
+    margin-left: 45px;
+    border-radius: 10px;
+}
